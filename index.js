@@ -6,8 +6,8 @@ const ytSearch = require('yt-search');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const PAGE_ACCESS_TOKEN = 'EAAU2eqYXA4ABOZCCz9hIQ9bVpCZAh2F0S11btyavrKt1ZB2m9ZA3N34HD7SORQz2icIW9JUY6aM2wf0ljRfJ1ZCW6ZBNFv5why8Ho4ZBE2ik0CTeaFltZCeZARBUi0PtFe1TkZAVZBn5z8Xp8Ydw2ZBLeOb2kwerIM5nRn5G5C6v6RngErVnN7APKNnFQA8kKpALZByCWpQZDZD'; // Replace with your token
-const VERIFY_TOKEN = 'pagebot'; // Choose a verification token for Facebook
+const PAGE_ACCESS_TOKEN = 'EAAU2eqYXA4ABOZCCz9hIQ9bVpCZAh2F0S11btyavrKt1ZB2m9ZA3N34HD7SORQz2icIW9JUY6aM2wf0ljRfJ1ZCW6ZBNFv5why8Ho4ZBE2ik0CTeaFltZCeZARBUi0PtFe1TkZAVZBn5z8Xp8Ydw2ZBLeOb2kwerIM5nRn5G5C6v6RngErVnN7APKNnFQA8kKpALZByCWpQZDZD';
+const VERIFY_TOKEN = 'pagebot';
 
 app.use(bodyParser.json());
 
